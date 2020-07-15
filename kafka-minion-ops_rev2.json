@@ -1,14 +1,5 @@
 {
-  "__inputs": [
-    {
-      "name": "DS_PROMETHEUS",
-      "label": "Prometheus",
-      "description": "",
-      "type": "datasource",
-      "pluginId": "prometheus",
-      "pluginName": "Prometheus"
-    }
-  ],
+  "__inputs": [],
   "__requires": [
     {
       "type": "grafana",
@@ -63,7 +54,7 @@
   "panels": [
     {
       "collapsed": false,
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "gridPos": {
         "h": 1,
         "w": 24,
@@ -80,7 +71,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "description": "Message count is only the difference between all partitions' high and low watermarks. Therefore this count is only an approximation on compact topics",
       "fill": 1,
       "fillGradient": 0,
@@ -176,7 +167,7 @@
         "rgba(237, 129, 40, 0.89)",
         "#d44a3a"
       ],
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "format": "none",
       "gauge": {
         "maxValue": 100,
@@ -259,7 +250,7 @@
         "rgba(237, 129, 40, 0.89)",
         "#d44a3a"
       ],
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "format": "none",
       "gauge": {
         "maxValue": 100,
@@ -335,7 +326,7 @@
     },
     {
       "columns": [],
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "fontSize": "100%",
       "gridPos": {
         "h": 8,
@@ -427,7 +418,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "fill": 1,
       "fillGradient": 0,
       "gridPos": {
@@ -517,7 +508,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "fill": 10,
       "fillGradient": 0,
       "gridPos": {
@@ -608,7 +599,7 @@
     },
     {
       "collapsed": false,
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "gridPos": {
         "h": 1,
         "w": 24,
@@ -622,7 +613,7 @@
     },
     {
       "columns": [],
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "description": "A consumer group which has at least one non expired consumer group offset for any partition is considered a \"subscriber\" for this topic. This metric can be used to identify topics which may not be consumed by anyone (anymore).",
       "fontSize": "100%",
       "gridPos": {
@@ -712,7 +703,7 @@
     },
     {
       "columns": [],
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "fontSize": "100%",
       "gridPos": {
         "h": 8,
@@ -804,7 +795,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "fill": 10,
       "fillGradient": 0,
       "gridPos": {
@@ -900,7 +891,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "fill": 10,
       "fillGradient": 0,
       "gridPos": {
@@ -993,7 +984,7 @@
     },
     {
       "collapsed": false,
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "gridPos": {
         "h": 1,
         "w": 24,
@@ -1010,7 +1001,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "fill": 1,
       "fillGradient": 0,
       "gridPos": {
