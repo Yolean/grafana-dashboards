@@ -1177,7 +1177,7 @@
       {
         "allValue": null,
         "current": {},
-        "datasource": "${DS_PROMETHEUS}",
+        "datasource": null,
         "definition": "label_values(minio_version_info,instance)",
         "hide": 0,
         "includeAll": true,
@@ -1199,7 +1199,7 @@
       {
         "allValue": null,
         "current": {},
-        "datasource": "${DS_PROMETHEUS}",
+        "datasource": null,
         "definition": "label_values(disk_storage_total,disk)",
         "hide": 0,
         "includeAll": true,
@@ -1221,7 +1221,7 @@
       {
         "allValue": null,
         "current": {},
-        "datasource": "${DS_PROMETHEUS}",
+        "datasource": null,
         "definition": "label_values(minio_version_info,version)",
         "hide": 0,
         "includeAll": false,

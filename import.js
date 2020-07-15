@@ -13,7 +13,13 @@ stdin.setEncoding('utf8');
 
 function datasourceToDefault(json) {
   json.__inputs = [];
-  json.panels.forEach(panel => panel.datasource = null);
+  json.panels.forEach(p => {
+    if (p.datasource) p.datasource = null
+  });
+  json.templating &&
+    json.templating.list.forEach(t => {
+      if (t.datasource) t.datasource = null
+    });
   return json;
 }
 

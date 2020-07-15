@@ -1096,7 +1096,7 @@
       {
         "allValue": null,
         "current": {},
-        "datasource": "${DS_PROMETHEUS}",
+        "datasource": null,
         "definition": "label_values(kafka_minion_topic_partition_count, topic)",
         "hide": 0,
         "includeAll": false,
