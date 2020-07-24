@@ -53,7 +53,7 @@
   "links": [],
   "panels": [
     {
-      "datasource": null,
+      "datasource": "Loki",
       "gridPos": {
         "h": 25,
         "w": 24,

@@ -87,7 +87,7 @@
         "rgb(31, 255, 7)",
         "rgb(31, 255, 7)"
       ],
-      "datasource": null,
+      "datasource": "Loki",
       "description": "Total  Count of log lines in the specified time range",
       "fieldConfig": {
         "defaults": {
@@ -183,7 +183,7 @@
         "rgb(222, 15, 43)",
         "rgb(222, 15, 43)"
       ],
-      "datasource": null,
+      "datasource": "Loki",
       "description": "Total Count: of $searchable_pattern in the specified time range",
       "fieldConfig": {
         "defaults": {
@@ -269,7 +269,7 @@
       "valueName": "total"
     },
     {
-      "datasource": null,
+      "datasource": "Loki",
       "description": "Live logs is a like 'tail -f' in a real time",
       "fieldConfig": {
         "defaults": {
@@ -341,7 +341,7 @@
         "label": "Others",
         "threshold": 0
       },
-      "datasource": null,
+      "datasource": "Loki",
       "decimals": null,
       "fieldConfig": {
         "defaults": {
@@ -424,7 +424,7 @@
         "label": "Others",
         "threshold": 0
       },
-      "datasource": null,
+      "datasource": "Loki",
       "decimals": 0,
       "fieldConfig": {
         "defaults": {
@@ -471,7 +471,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": null,
+      "datasource": "Loki",
       "fieldConfig": {
         "defaults": {
           "custom": {},
@@ -550,7 +550,7 @@
       "cacheTimeout": null,
       "dashLength": 10,
       "dashes": false,
-      "datasource": null,
+      "datasource": "Loki",
       "decimals": 0,
       "fieldConfig": {
         "defaults": {
@@ -657,7 +657,7 @@
       "cacheTimeout": null,
       "dashLength": 10,
       "dashes": false,
-      "datasource": null,
+      "datasource": "Loki",
       "fieldConfig": {
         "defaults": {
           "custom": {}
@@ -759,7 +759,7 @@
       "cacheTimeout": null,
       "dashLength": 10,
       "dashes": false,
-      "datasource": null,
+      "datasource": "Loki",
       "fieldConfig": {
         "defaults": {
           "custom": {},
@@ -911,7 +911,7 @@
       {
         "allValue": null,
         "current": {},
-        "datasource": null,
+        "datasource": "Loki",
         "definition": "label_values({container_name=~\".+\"}, container_name)",
         "hide": 0,
         "includeAll": false,
@@ -933,7 +933,7 @@
       {
         "allValue": null,
         "current": {},
-        "datasource": null,
+        "datasource": "Loki",
         "definition": "label_values({container_name=\"$container_name\"}, pod_name)",
         "hide": 0,
         "includeAll": true,
@@ -955,7 +955,7 @@
       {
         "allValue": null,
         "current": {},
-        "datasource": null,
+        "datasource": "Loki",
         "definition": "label_values({container_name=\"$container_name\"}, stream)",
         "hide": 0,
         "includeAll": true,
