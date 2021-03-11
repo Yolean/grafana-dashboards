@@ -1,14 +1,5 @@
 {
-  "__inputs": [
-    {
-      "name": "DS_CORTEX",
-      "label": "Prometheus",
-      "description": "Prometheus Server",
-      "type": "datasource",
-      "pluginId": "prometheus",
-      "pluginName": "Prometheus"
-    }
-  ],
+  "__inputs": [],
   "__requires": [
     {
       "type": "grafana",
