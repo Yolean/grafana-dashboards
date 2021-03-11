@@ -57,7 +57,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_CORTEX}",
+      "datasource": null,
       "description": "Summed delta between High and Low watermark of all partitions in the given topic. Therefore not accurate for compacted topics that contain compacted records.",
       "fieldConfig": {
         "defaults": {
@@ -159,7 +159,7 @@
         "rgba(237, 129, 40, 0.89)",
         "#d44a3a"
       ],
-      "datasource": "${DS_CORTEX}",
+      "datasource": null,
       "fieldConfig": {
         "defaults": {
           "custom": {}
@@ -253,7 +253,7 @@
         "rgba(237, 129, 40, 0.89)",
         "#d44a3a"
       ],
-      "datasource": "${DS_CORTEX}",
+      "datasource": null,
       "fieldConfig": {
         "defaults": {
           "custom": {}
@@ -343,7 +343,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_CORTEX}",
+      "datasource": null,
       "description": "Summed delta between High and Low watermark of all partitions in the given topic. Therefore not accurate for compacted topics that contain compacted records.",
       "fieldConfig": {
         "defaults": {
@@ -446,7 +446,7 @@
         "rgba(237, 129, 40, 0.89)",
         "#d44a3a"
       ],
-      "datasource": "${DS_CORTEX}",
+      "datasource": null,
       "fieldConfig": {
         "defaults": {
           "custom": {}
@@ -532,7 +532,7 @@
       "valueName": "current"
     },
     {
-      "datasource": "${DS_CORTEX}",
+      "datasource": null,
       "fieldConfig": {
         "defaults": {
           "custom": {
@@ -631,7 +631,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_CORTEX}",
+      "datasource": null,
       "description": "Log dir size across all partitions and brokers for the given topic.",
       "fieldConfig": {
         "defaults": {
@@ -726,7 +726,7 @@
       }
     },
     {
-      "datasource": "${DS_CORTEX}",
+      "datasource": null,
       "fieldConfig": {
         "defaults": {
           "custom": {
@@ -834,7 +834,7 @@
       {
         "allValue": null,
         "current": {},
-        "datasource": "${DS_CORTEX}",
+        "datasource": null,
         "definition": "label_values(kminion_kafka_topic_low_water_mark_sum, topic_name)",
         "error": null,
         "hide": 0,

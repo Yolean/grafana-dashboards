@@ -51,7 +51,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_CORTEX}",
+      "datasource": null,
       "fieldConfig": {
         "defaults": {
           "custom": {},
@@ -159,7 +159,7 @@
         "rgba(237, 129, 40, 0.89)",
         "#d44a3a"
       ],
-      "datasource": "${DS_CORTEX}",
+      "datasource": null,
       "fieldConfig": {
         "defaults": {
           "custom": {}
@@ -253,7 +253,7 @@
         "rgba(237, 129, 40, 0.89)",
         "#d44a3a"
       ],
-      "datasource": "${DS_CORTEX}",
+      "datasource": null,
       "fieldConfig": {
         "defaults": {
           "custom": {}
@@ -343,7 +343,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_CORTEX}",
+      "datasource": null,
       "fieldConfig": {
         "defaults": {
           "custom": {},
@@ -461,7 +461,7 @@
       {
         "allValue": null,
         "current": {},
-        "datasource": "${DS_CORTEX}",
+        "datasource": null,
         "definition": "label_values(kminion_kafka_consumer_group_topic_lag, group_id)",
         "error": null,
         "hide": 0,
@@ -484,7 +484,7 @@
       {
         "allValue": null,
         "current": {},
-        "datasource": "${DS_CORTEX}",
+        "datasource": null,
         "definition": "label_values(kminion_kafka_consumer_group_topic_lag{group_id=\"$consumerGroup\"}, topic_name)",
         "error": null,
         "hide": 0,

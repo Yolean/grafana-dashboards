@@ -58,7 +58,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_CORTEX}",
+      "datasource": null,
       "description": "Summed delta between High and Low watermark of all partitions in the given topic. Therefore not accurate for compacted topics that contain compacted records.",
       "fieldConfig": {
         "defaults": {
@@ -161,7 +161,7 @@
         "rgba(237, 129, 40, 0.89)",
         "#d44a3a"
       ],
-      "datasource": "${DS_CORTEX}",
+      "datasource": null,
       "fieldConfig": {
         "defaults": {
           "custom": {}
@@ -247,7 +247,7 @@
       "valueName": "current"
     },
     {
-      "datasource": "${DS_CORTEX}",
+      "datasource": null,
       "fieldConfig": {
         "defaults": {
           "custom": {
@@ -352,7 +352,7 @@
         "rgba(237, 129, 40, 0.89)",
         "#d44a3a"
       ],
-      "datasource": "${DS_CORTEX}",
+      "datasource": null,
       "fieldConfig": {
         "defaults": {
           "custom": {}
@@ -442,7 +442,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_CORTEX}",
+      "datasource": null,
       "description": "Log dir size across all log dirs, topics and partitions for a given broker.",
       "fieldConfig": {
         "defaults": {
@@ -541,7 +541,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_CORTEX}",
+      "datasource": null,
       "description": "",
       "fieldConfig": {
         "defaults": {
@@ -642,7 +642,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_CORTEX}",
+      "datasource": null,
       "description": "",
       "fieldConfig": {
         "defaults": {
@@ -743,7 +743,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_CORTEX}",
+      "datasource": null,
       "fieldConfig": {
         "defaults": {
           "custom": {},
@@ -848,7 +848,7 @@
       {
         "allValue": null,
         "current": {},
-        "datasource": "${DS_CORTEX}",
+        "datasource": null,
         "definition": "query_result(topk(15, avg by (topic_name) (avg_over_time(kminion_kafka_topic_high_water_mark_sum[${__range_s}s]))))",
         "error": null,
         "hide": 2,
@@ -871,7 +871,7 @@
       {
         "allValue": null,
         "current": {},
-        "datasource": "${DS_CORTEX}",
+        "datasource": null,
         "definition": "query_result(topk(5, avg by (group_id) (avg_over_time(kminion_kafka_consumer_group_offset_commits_total[${__range_s}s]))))",
         "error": null,
         "hide": 2,

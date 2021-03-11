@@ -77,7 +77,7 @@
   "panels": [
     {
       "collapsed": false,
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "gridPos": {
         "h": 1,
         "w": 24,
@@ -91,7 +91,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "description": "",
       "fieldConfig": {
         "defaults": {
@@ -166,7 +166,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "description": "",
       "fieldConfig": {
         "defaults": {
@@ -246,7 +246,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "fieldConfig": {
         "defaults": {
           "custom": {},
@@ -318,7 +318,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "fieldConfig": {
         "defaults": {
           "custom": {}
@@ -411,7 +411,7 @@
       }
     },
     {
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "fieldConfig": {
         "defaults": {
           "custom": {
@@ -483,7 +483,7 @@
         "rgba(237, 129, 40, 0.89)",
         "rgba(245, 54, 54, 0.9)"
       ],
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "decimals": null,
       "description": "",
       "fieldConfig": {
@@ -569,7 +569,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "description": "",
       "fieldConfig": {
         "defaults": {
@@ -649,7 +649,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "description": "",
       "fieldConfig": {
         "defaults": {
@@ -725,7 +725,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "fieldConfig": {
         "defaults": {
           "custom": {},
@@ -807,7 +807,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "fieldConfig": {
         "defaults": {
           "custom": {}
@@ -909,7 +909,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "description": "",
       "fieldConfig": {
         "defaults": {
@@ -989,7 +989,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "description": "",
       "fieldConfig": {
         "defaults": {
@@ -1065,7 +1065,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "fieldConfig": {
         "defaults": {
           "custom": {},
@@ -1141,7 +1141,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "description": "",
       "fieldConfig": {
         "defaults": {
@@ -1227,7 +1227,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "fieldConfig": {
         "defaults": {
           "custom": {}
@@ -1329,7 +1329,7 @@
     },
     {
       "collapsed": false,
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "gridPos": {
         "h": 1,
         "w": 24,
@@ -1350,7 +1350,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "description": "Total number of s3 bytes received and sent per MinIO server instance",
       "fieldConfig": {
         "defaults": {
@@ -1463,7 +1463,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "decimals": null,
       "description": "Total number of active s3 requests in current MinIO instance",
       "fieldConfig": {
@@ -1591,7 +1591,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "description": "Total number of bytes received and sent among all MinIO server instances",
       "fieldConfig": {
         "defaults": {
@@ -1699,7 +1699,7 @@
     },
     {
       "collapsed": false,
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "gridPos": {
         "h": 1,
         "w": 24,
@@ -1720,7 +1720,7 @@
       "cacheTimeout": null,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "description": "Number of online disks per MinIO Server",
       "fieldConfig": {
         "defaults": {
@@ -1830,7 +1830,7 @@
       "cacheTimeout": null,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_PROMETHEUS}",
+      "datasource": null,
       "description": "Disk capacity used per MinIO Server",
       "fieldConfig": {
         "defaults": {
@@ -1939,7 +1939,7 @@
       {
         "allValue": null,
         "current": {},
-        "datasource": "${DS_PROMETHEUS}",
+        "datasource": null,
         "definition": "label_values(minio_version_info,instance)",
         "hide": 0,
         "includeAll": true,
@@ -1961,7 +1961,7 @@
       {
         "allValue": null,
         "current": {},
-        "datasource": "${DS_PROMETHEUS}",
+        "datasource": null,
         "definition": "label_values(disk_storage_total,disk)",
         "hide": 0,
         "includeAll": true,
